@@ -1,0 +1,136 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COURSE</title>
+    <!-- CSS File -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <!-- Font Awoesome -->
+    <script src="https://kit.fontawesome.com/8c18299ece.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="Sub-Header">
+        <nav>
+            <a href="./index.html"><img src="./eduford_img/logo.png"></a>
+            <div class="nav_links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <!--Courses-->
+    
+    <section class="Course">
+        <h1>Course We Offer</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil corrupti eligendi provident iusto temporibus
+            est illum aperiam deleniti fugit, odit eveniet quam dolorem, soluta debitis aspernatur rerum aliquid
+            expedita vel!</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia ipsa tempore libero a
+                    voluptatibus. Quaerat tempora voluptatibus eius earum nesciunt ducimus vitae!
+                    Quisquam modi nobis provident ipsum cum rem ullam distinctio, dolore minima,
+                    voluptatem unde laudantium quis voluptate! Laborum ullam nostrum quo a pariatur porro.
+                    Sunt pariatur hic natus minima iusto adipisci ullam possimus dolore velit culpa,
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia ipsa tempore libero a
+                    voluptatibus. Quaerat tempora voluptatibus eius earum nesciunt ducimus vitae!
+                    Quisquam modi nobis provident ipsum cum rem ullam distinctio, dolore minima,
+                    voluptatem unde laudantium quis voluptate! Laborum ullam nostrum quo a pariatur porro.
+                    Sunt pariatur hic natus minima iusto adipisci ullam possimus dolore velit culpa,
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia ipsa tempore libero a
+                    voluptatibus. Quaerat tempora voluptatibus eius earum nesciunt ducimus vitae!
+                    Quisquam modi nobis provident ipsum cum rem ullam distinctio, dolore minima,
+                    voluptatem unde laudantium quis voluptate! Laborum ullam nostrum quo a pariatur porro.
+                    Sunt pariatur hic natus minima iusto adipisci ullam possimus dolore velit culpa,
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities -->
+
+    <section class="Facilities">
+        <h1>Our Facilities</h1>
+        <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</P>
+
+        <div class="row">
+            <div class="Facilities-col">
+                <img src="./eduford_img/library.png">
+                <h3>World Class library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nulla recusandae
+                     quas eum consequatur  illo nisi minus odio! Autem corporis, doloremque error
+                      sint amet quod enetur?Quibusdam harum doloremque minima!</p>
+            </div>
+            <div class="Facilities-col">
+                <img src="./eduford_img/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nulla recusandae
+                     quas eum consequatur  illo nisi minus odio! Autem corporis, doloremque error
+                      sint amet quod enetur?Quibusdam harum doloremque minima!</p>
+            </div>
+            <div class="Facilities-col">
+                <img src="./eduford_img/cafeteria.png">
+                <h3>Testy And Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nulla recusandae
+                     quas eum consequatur  illo nisi minus odio! Autem corporis, doloremque error
+                      sint amet quod enetur?Quibusdam harum doloremque minima!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="Footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repudiandae excepturi officia 
+           quae porro nemo aperiam harum <br> ut deleniti,quasi nisi saepe ipsum sed obcaecati expedita
+           vel eos reiciendis facilis!</p>
+           <div class="icons">
+               <i class="fa fa-facebook"></i>
+               <i class="fa fa-twitter"></i>
+               <i class="fa fa-instagram"></i>
+               <i class="fa fa-linkedin"></i>
+           </div>
+           <p>Made With &nbsp;<i class="fa fa-heart-o"></i>&nbsp;By Easy Tutorial</p>
+    </section>
+
+    <!--Javascript File in Code-->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu() {
+            navlinks.style.right = "0px";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
